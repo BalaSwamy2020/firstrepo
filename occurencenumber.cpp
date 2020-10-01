@@ -17,6 +17,7 @@ while(i<n)
    if(arr[i]==value)
    {
    count = count + 1;
+       i = i +1;
    }
 }
 cout<<"Number of occurences = "<<count;
